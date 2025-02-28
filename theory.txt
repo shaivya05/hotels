@@ -56,3 +56,8 @@ update:::
 we need to knoe kya change krna hai 
 we use unique id given by mongodb 
 delete method 
+learning git  and its command 
+git init
+git status
+git add .
+.gitignore file to prevent some files from getting oushed to git
