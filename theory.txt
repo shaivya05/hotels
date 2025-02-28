@@ -1,0 +1,58 @@
+start with npm init
+npm is a library jaha sare packages milte hai 
+npm i express
+package .json =package and their version 
+package lock.json =detailed list of all dependancy 
+all team members need to work on same version
+using nodemon -khud restart kr deta
+different ways of writing functionsss
+callback function =ek main kaam krne k baad just baad dusra kaam krna 
+main funciton me callback as a parameter pass krna pdega 
+node js me bhot sare packages hote hai toh we can use those  
+jese for example :fs(file) aur os(operaring system)
+iske functions google kr sakte hai whenevr needed
+fs.append(path,data,callback)
+ export krne k liye require krna pdega aur jis file se import krre waha s export wali line likhni pdegi 
+ lodash ek lib hai jo bhot sari functionality deta hai to deal with data==> var _ =require('lodash');
+ server kese banate hai ===thriugh node js
+ what is server ----someone that communicates with client ..provides all information  that client need 
+ server is like waiter 
+ server is mediator betwen database and client
+ json data ko acche se arrange krta hai taaki user acche se samjh sakte--exp: waiter ache se khana arrang ekrkr deta hi \
+ json is light weight "string" so easy to transport from one place to other
+ object and json are easy to convert in each other 
+ client -->internet---->server ---->database
+ api and end point 
+ -waiter wahi samjhta hai jo menu me defined hai 
+ - these items in menu card -instruction are called end points
+ - and a collection of these is called api
+ we use express to create server
+serevr -waiter ka kuch ghar hoga 
+computer me uske ghar hai localhost that is our own computer
+differnet methids to talk to server -get-post-delete -patch
+server interact  with database and give respose --- kuch cheeze server khud kr sakta aur jonhi kr sakta woh database se mang k deta hai 
+database has its own server 
+whenever node js server require data it iteract with databse server and is return the data to node js server
+compass -to visualize data throught gui 
+postman -request handle krega aur waha se durectlywe can se how we  will get and send data 
+mongodb has a drvier jo node js and mongo db k beech m bridhe hota hai 
+mongodb has its own driver but we use mongoose because it is more efficient 
+it is object data modelling (odm)
+mongoose se connection extablish kara 
+models is blue print of database
+model bana k server.js file me export kare
+phir we use body parser to parse the data  - it process the daata 
+
+body pareser json data ko javascript object me convert kr deta hai 
+middle wear use krne k liye we ise app.use(middleware)
+body parser stores data in req.body
+ASYNC AND AWAIT ====async mtlb aise task jise complete hone me time lagta hai so jab tak khtm nhi h jata we have to wait for that isiliye sath me we use await to wit jab tak pura n ho jaatta jese data lana .we use try catch block 
+creating post method for person 
+defining menu k liye schema khud se and gwt and post method
+writing parameterized api callback ==did it 
+creating routes==very imp 
+express router is used bhot aasan just use the same method in different file using router function 
+update:::
+we need to knoe kya change krna hai 
+we use unique id given by mongodb 
+delete method 
