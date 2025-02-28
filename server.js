@@ -18,10 +18,12 @@
 const express=require("express")
 const app=express();
 const db=require('./db');
+require('dotenv').config(); //configuring dot env file 
 const person=require('./models/person');
 const menu=require('./models/menu');
 const bodyParser=require('body-parser');
 app.use(bodyParser.json());
+const PORT =process.env.PORT ||3000;//Defined in env file
 app.get('/',(req,res)=>{
     res.send('welcone to my page ...how can i help you')
 })
@@ -32,4 +34,5 @@ app.use('/person',personRoutes);
 const menuRoutes=require('./routes/menuRoutes');
 app.use('/menu',menuRoutes);
 console.log("hiiiiiiiii");
-app.listen(3000)
+
+app.listen(PORT)

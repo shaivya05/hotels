@@ -60,4 +60,12 @@ learning git  and its command
 git init
 git status
 git add .
-.gitignore file to prevent some files from getting oushed to git
+.gitignore file to prevent some files from getting oushed to 
+create a repo and push you code there by writing a few commands 
+git push origin main
+we need to push database online 
+mongo db atlas password  : PMFYgnxIIrPqNIjI
+DATABASE ONLINE PUSH KRNE K BAAD I REALISED KI AGAR MAI ISE GIT PAR PUSH KR DUNGI  TOH THAT WONT BE A GOOD IDEA QKI PASSWORD BHI PUSH HO JAEGA TOH WE WILL 
+CREATE A dot env file
+pahle use npm se install karo 
+then .env ki file banao phir usme jo likhna hai woh likho phir configure karo 
