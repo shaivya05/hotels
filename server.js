@@ -26,7 +26,7 @@ app.get('/',(req,res)=>{
     res.send('welcone to my page ...how can i help you')
 })
 
-
+//creating routes 
 const personRoutes=require('./routes/personRoutes');
 app.use('/person',personRoutes);
 const menuRoutes=require('./routes/menuRoutes');
